@@ -45,15 +45,12 @@ div{
     margin: 0px auto;
 } */
 
-
-div{
-    width: 300px;
-    background-color: blue;
-    height: 300px;
+.width{
+    background-color:blue;
+    width: 300px;    
 }
-p{
-    background-color: red;
-    width: 70%;
-    height: 70%;
-    margin: auto;
+
+.m-width{
+    background-color:red ;
+    min-width: 300px;
 }

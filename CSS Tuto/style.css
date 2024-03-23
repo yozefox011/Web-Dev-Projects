@@ -30,9 +30,17 @@ section div ul li{
     color: blueviolet;
 } */
 
+/* box model
 h1{
     border: 3px orange solid;
     width: 76px;
     padding: 6px 40px;
     margin: 10px 10px 100px 10px;
+} */
+
+div{
+    height: 200px;
+    background-color: red;
+    width: 50%;
+    margin: 0px auto;
 }

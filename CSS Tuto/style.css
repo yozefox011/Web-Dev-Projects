@@ -37,10 +37,23 @@ h1{
     padding: 6px 40px;
     margin: 10px 10px 100px 10px;
 } */
-
+/* margin auto
 div{
     height: 200px;
     background-color: red;
     width: 50%;
     margin: 0px auto;
+} */
+
+
+div{
+    width: 300px;
+    background-color: blue;
+    height: 300px;
+}
+p{
+    background-color: red;
+    width: 70%;
+    height: 70%;
+    margin: auto;
 }

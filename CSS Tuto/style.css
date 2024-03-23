@@ -1,4 +1,4 @@
-*{
+/* selectors *{
     background-color: bisque;
 }
 
@@ -15,4 +15,17 @@ h2, p, div{
     font-size: 25px;
     border: 1px solid black;
     border-radius: 10px;
+} */
+
+/* descendant selector 
+section div p strong{
+    color: red;
 }
+
+section div h2 strong{
+    color: brown;
+}
+
+section div ul li{
+    color: blueviolet;
+} */

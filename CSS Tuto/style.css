@@ -29,3 +29,10 @@ section div h2 strong{
 section div ul li{
     color: blueviolet;
 } */
+
+h1{
+    border: 3px orange solid;
+    width: 76px;
+    padding: 6px 40px;
+    margin: 10px 10px 100px 10px;
+}

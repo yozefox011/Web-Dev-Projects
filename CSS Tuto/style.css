@@ -63,6 +63,7 @@ div{
     line-height: 100px;
 } */
 
+/* shadow, decoration
 p{
     color: purple;
     text-shadow: 6px 6px 2px black;
@@ -84,4 +85,10 @@ a{
 a:hover{
     
     color: pink;
+} */
+
+div{
+    background-color: palegreen;
+    width: 200px;
+    white-space: pre-line;
 }

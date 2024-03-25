@@ -52,7 +52,13 @@ div{
     border-radius: 23%;
 } */
 
-p{
+/* p{
     text-align: right;
     direction: rtl;
+} */
+
+p{
+    letter-spacing: 5px;
+    word-spacing: 50px;
+    line-height: 100px;
 }

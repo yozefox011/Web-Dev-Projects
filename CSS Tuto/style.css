@@ -45,9 +45,17 @@ div{
     margin: 0px auto;
 } */
 
-.height{
+/* .height{
     background-color: blue;
     width: 300px;
     height: 300px;
     border-radius: 23%;
+} */
+
+p, span, h1{
+    background: red;
+}
+
+div{
+    width: 200px;
 }

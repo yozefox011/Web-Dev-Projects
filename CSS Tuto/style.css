@@ -52,6 +52,7 @@ div{
     border-radius: 23%;
 } */
 
-div, span{
-    text-align: center;
+p{
+    text-align: right;
+    direction: rtl;
 }

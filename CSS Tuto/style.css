@@ -45,12 +45,9 @@ div{
     margin: 0px auto;
 } */
 
-.width{
-    background-color:blue;
-    width: 300px;    
-}
-
-.m-width{
-    background-color:red ;
-    min-width: 300px;
+.height{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    border-radius: 23%;
 }

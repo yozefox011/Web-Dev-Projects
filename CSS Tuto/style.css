@@ -57,8 +57,23 @@ div{
     direction: rtl;
 } */
 
-p{
+/* p{
     letter-spacing: 5px;
     word-spacing: 50px;
     line-height: 100px;
+} */
+
+p{
+    text-decoration: line-through red wavy;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    transition: ease 1s;
+}
+
+a:hover{
+    
+    color: pink;
 }

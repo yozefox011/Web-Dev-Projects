@@ -52,10 +52,6 @@ div{
     border-radius: 23%;
 } */
 
-p, span, h1{
-    background: red;
-}
-
-div{
-    width: 200px;
+div, span{
+    text-align: center;
 }

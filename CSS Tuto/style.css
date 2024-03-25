@@ -64,7 +64,15 @@ div{
 } */
 
 p{
-    text-decoration: line-through red wavy;
+    color: purple;
+    text-shadow: 6px 6px 2px black;
+}
+
+div{
+    background-color: palegreen;
+    height: 50px;
+    width: 50px;
+    box-shadow: 5px 5px 6px 5px black;
 }
 
 a{

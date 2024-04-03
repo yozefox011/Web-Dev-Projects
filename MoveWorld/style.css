@@ -1,0 +1,89 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    font-weight: 500;
+
+}
+
+.navbar{
+    background: #0F2167;
+    font-family: monospace;
+    padding-right: 15px ;
+    padding-left: 15px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navdiv a{
+    width: 30px;
+    color: white;
+    font-size: 30px;
+}
+
+.navdiv #menu{
+    width: 30px;
+    color: white;
+    font-size: 28px;
+    padding-left:1100px ;
+}
+
+.logo a img{
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 70px;
+}
+
+header .qualities h2{
+    padding: 30px 0px 15px 40px;
+    color: #0F2167;
+}
+.qua{
+    border: none;
+    height: 2px;
+    background-color: #0F2167;
+}
+
+.svgl{
+    display: flex;
+    align-items: center;
+    padding-left: 237px;
+}
+
+svg{
+    padding: 1px 15px;
+    width: 36px;
+    margin: 20px 50px;
+    border: 2px #0F2167 solid;
+    border-radius:300px;
+}
+
+.quadesc{
+    padding: 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+pre{
+color: #0F2167;
+font-weight: 600;
+padding-bottom: 50px;
+}
+
+.collumn{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.rows::after{
+    content: "";
+    display: table;
+    clear: both;
+}

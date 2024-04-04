@@ -3,8 +3,8 @@
     padding: 0;
     margin: 0;
     font-family: Helvetica;
-    font-weight: 500;
-
+    font-weight: 600;
+    box-sizing: border-box;
 }
 
 .navbar{
@@ -23,25 +23,20 @@
 .navdiv a{
     width: 30px;
     color: white;
-    font-size: 30px;
-}
-
-.navdiv #menu{
-    width: 30px;
-    color: white;
-    font-size: 28px;
-    padding-left:1100px ;
+    font-size: 38px;
+    padding-right: 40px;
 }
 
 .logo a img{
     padding-top: 5px;
     padding-left: 10px;
-    width: 70px;
+    width: 90px;
 }
 
 header .qualities h2{
-    padding: 30px 0px 15px 40px;
+    padding: 30px 0px 15px 30px;
     color: #0F2167;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .qua{
     border: none;
@@ -49,41 +44,65 @@ header .qualities h2{
     background-color: #0F2167;
 }
 
-.svgl{
-    display: flex;
-    align-items: center;
-    padding-left: 237px;
-}
 
-svg{
-    padding: 1px 15px;
-    width: 36px;
-    margin: 20px 50px;
-    border: 2px #0F2167 solid;
-    border-radius:300px;
-}
-
-.quadesc{
-    padding: 0px 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-pre{
-color: #0F2167;
-font-weight: 600;
-padding-bottom: 50px;
-}
-
-.collumn{
+.image{
     float: left;
-    width: 33.33%;
-    padding: 5px;
+    width: 25%;
+    padding: 18px;
+    padding-top: 25px;
 }
 
-.rows::after{
-    content: "";
-    display: table;
-    clear: both;
+.image #pic{
+    width: 100%;
+    height: 150px;
+    border: 2px solid #0F2167 ;
+    border-radius: 35px;
+}
+
+.services{
+    float: left;
+    width: 20%;
+    padding: 8px;
+    padding-top: 30px;
+}
+
+.services svg{
+    width: 100%;
+    height: 40px;
+}
+
+.services h3{
+    padding-left: 80px;
+    width: 80%;
+    color: #0F2167;
+    font-weight: 600;
+}
+
+.services #reco{
+    padding-bottom: 50px;
+}
+
+.image h3{
+    color: #0F2167;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.image p{
+    color: #0F2167;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.about{
+    background-color: #0F2167;
+    height: 500px;
+    color: #fff;
+    padding: 15px;
+}
+
+.about h3{
+    font-size: 30px;
 }

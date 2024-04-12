@@ -57,6 +57,7 @@ header .qualities h2{
     height: 150px;
     border: 2px solid #0F2167 ;
     border-radius: 35px;
+    margin: 0px 8px;
 }
 
 .services{
@@ -98,11 +99,52 @@ header .qualities h2{
 
 .about{
     background-color: #0F2167;
-    height: 500px;
+    height: 570px;
     color: #fff;
     padding: 15px;
 }
 
 .about h3{
     font-size: 30px;
+}
+
+.about p{
+    font-size: 20px;
+    padding-top:40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.about h4{
+    font-size: 22px;
+    padding-top:25px;
+    letter-spacing: 1px;
+    padding-bottom: 25px;
+}
+
+label{
+    position: relative;
+}
+
+input[type="email"]{
+    border: none;
+    width: 400px;
+    height: 50px;
+    padding: 0 16px;
+}
+
+button{
+    position:absolute ;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    color:#0F2167;
+    padding: 0 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 14px ;
+    border: none;
+    cursor: pointer;
 }

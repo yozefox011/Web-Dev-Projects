@@ -4,6 +4,7 @@
     margin: 0;
     font-family: Helvetica;
     font-weight: 600;
+    box-sizing: border-box;
 }
 
 .navbar{

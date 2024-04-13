@@ -149,3 +149,101 @@ section{
 .house-info p{
     color: #333;
 }
+
+.house-info i{
+    color: #051248;
+    font-size: 18px;
+    margin: 10px 1px;
+}
+
+.house-price{
+    text-align: right;
+}
+
+.house-price h4{
+    font-size: 20px;
+    color: #051248;
+}
+.house-price h4 span{
+    font-size: 16px;
+    font-weight: 500;
+    color: #051248;
+}
+
+.sidebar{
+    border: 1px solid #555;
+    border-radius: 15px;
+    padding: 20px 30px;
+    margin-top: 30px;
+}
+
+.sidebar h2{
+    font-weight: 500;
+    color: #051248;
+}
+
+.sidebar h3{
+    font-weight: 500;
+    margin: 20px 0 10px;
+    color: #051248;
+}
+
+.filter{
+    display: flex;
+    align-items: center;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.filter p{
+    flex: 1;
+}
+
+.filter input{
+    margin-right: 15px;
+    cursor: pointer;
+}
+.siderbar-link{
+    text-align: right;
+    margin: 20px 0;
+}
+
+.siderbar-link a{
+    text-decoration: none;
+    color: #051248;
+    transition: all 0.3s ease;
+}
+
+.siderbar-link a:hover{
+    color: #1a3396;
+}
+
+.pagination{
+    color: #051248;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.pagination i{
+    color: #051248;
+    font-size: 30px;
+    width: 15px;
+    margin: 10px 20px;
+}
+.pagination span{
+    font-weight: 400;
+    margin: 10px 8px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pagination .current{
+    background-color: #051248;
+    color: #fff;
+}

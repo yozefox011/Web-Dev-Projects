@@ -162,7 +162,7 @@ section{
 }
 
 .footer-content h4{
-    color: black;
+    color: #051248;
     margin-bottom: 1.5rem;
     font-size: 20px;
 }
@@ -174,7 +174,7 @@ section{
 
 .footer-content li a{
     display: block;
-    color: black;
+    color: #051248;
     font-size: 15px;
     font-weight: 400;
     transition: all .40s ease;
@@ -190,7 +190,7 @@ section{
 }
 
 .footer-content p{
-    color: black;
+    color: #051248;
     font-size: 20px ;
     line-height: 30px;
     margin: 5px 0;
@@ -199,7 +199,7 @@ section{
 .icons a{
     display: inline-block;
     font-size: 22px;
-    color: black;
+    color: #051248;
     margin-right: 17px;
     transition: all .40s ease;
 }

@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Inter';
+  margin: 0;
+  padding: 0;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+:root{
+    --clr-bg-1: #131313;
+    --clr-bg-2: #000;
+    --clr-bg-nav: #131313cd;
+
+    --clr-primary: #FFFFFF;
+    --clr-second: #6E6E73;
+    --clr-button: #147CE5;
+    --clr-case: #04F75A;
+
+    --ff-primary:'Inter';
+
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semi-bold: 600;
+    --fw-bold: 700;
+
+    --fs-title: 13.25rem;
+    --fs-area-title: 7.25rem;
+    --fs-hours: 6.75rem;
+    --fs-charge-hours : 5.25rem;
+    --fs-button: 1.125rem;
+    --fs-nav: .75rem;
+    --fs-nav-title: 1.5rem;
+    --fs-h2-desc: 2rem;
+    --fs-p-title:2.5rem;
+    --fs-setup: 2rem;
+}
+
+@media (max-width: 1220px){
+  :root{
+    --fs-title : 11rem;
+  }
+}
+@media (max-width: 1013px){
+  :root{
+    --fs-title : 8.75rem;
+  }
+}
+
+@media (max-width: 415px){
+  body{
+    max-width: 200%;
+  }
+  :root{
+    --fs-title : 10rem;
+  }
+  .even-columns{
+    flex-direction: column;
+  }
+}
+
+body{
+  background-color: var(--clr-bg-1);
+}
+
+a{
+  text-decoration: none;
+  color: var(--clr-primary);
+  font-size: var(--fs-button);
+  font-weight: var(--fw-medium);
+}
+.navbar{
+  max-width: 100%;
+  position: fixed;
+}
+
+.even-nav{
+  padding: 10px 8%;
+  display: flex;
+  justify-content: space-between;
+  color: var(--clr-primary);
+  background: var(--clr-bg-nav);
+  border-bottom: #fff 1px solid;
+  backdrop-filter: blur(10px);
+}
+
+.nav-title{
+  font-weight: var(--fw-semi-bold);
+}
+
+.nav-links{
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a{
+  font-size: var(--fs-nav);
+}
+
+.nav-links .cta-link{
+  text-align: center;
+}
+
+.nav-links .cta-nav{
+  background: var(--clr-button);
+  max-width: 50px;
+  text-align: center;
+  padding: 2px;
+  border-radius: 20px;
+}
+
+.header-h1{
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-title);
+  padding-top: 220px;
+  display: flex;
+  justify-content: center;
+  color: var(--clr-primary);
+  text-align: center;
+}
+
+.header-img{
+  position: absolute;
+  top: 108px;
+  left: -3px;
+  max-width: 100%;
+}
+
+.cta{
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 75px;
+}
+
+.cta-buy{
+  background: var(--clr-button);
+  width: 130px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 35px;
+}
+
+.cta-more{
+  background: var(--clr-bg-1);
+  width: 140px;
+  text-align: center;
+  padding: 10px;
+}
+
+.chip .even-columns{
+  display: flex;
+}
+
+.chip-img{
+  width: 50%;
+  border: var(--clr-second) 1px solid;
+}
+
+.chip-desc{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  background: var(--clr-bg-2);
+  border: var(--clr-second) 1px solid;
+}
+
+.chip-desc p{
+  color: var(--clr-second);
+  font-size: var(--fs-h2-desc);
+  font-weight: var(--fw-semi-bold);
+  padding: 0 80px;
+}
+
+.chip-desc p span{
+  color: var(--clr-primary);
+}
+
+.area{
+  margin: 8%;
+}
+
+.area p{
+  color: var(--clr-primary);
+  font-size: var(--fs-p-title);
+  font-weight: var(--fw-semi-bold);
+}
+
+.area h2{
+  padding: 30px 0 45px 0;
+  color: var(--clr-primary);
+  font-size: var(--fs-area-title);
+  line-height: 110px;
+}
+
+.setup{
+  background: var(--clr-bg-2);
+}
+
+.even-setup{
+  margin: 0 200px;
+  display: flex;
+}
+
+.setup-1{
+  padding: 150px 0;
+  width: 50%;
+
+}
+
+.setup-1 p{
+  color: var(--clr-second);
+  font-size: var(--fs-setup);
+  font-weight: var(--fw-semi-bold);
+  padding-bottom: 80px;
+}
+
+.setup-1 p span{
+  color: var(--clr-primary);
+}
+
+.setup-img{
+  padding: 150px 0;
+  width: 55%;
+}
+
+.case-section{
+  background: var(--clr-bg-2);
+}
+
+.case-img{
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.case-img img{
+  width: 30%;
+}
+
+.info-case{
+  display: flex;
+  color: var(--clr-primary);
+  gap: 100px;
+  justify-content: center;
+  text-align: center;
+  line-height: 70px;
+}
+
+.info-case p{
+  font-size: var(--fs-setup);
+  font-weight: var(--fw-semi-bold);
+  line-height: 40px;
+}
+
+.info-case h3{
+  font-size: var(--fs-charge-hours);
+  padding-bottom: 20px;
+}
+
+.info-case span{
+  font-size: var(--fs-hours);
+  color: var(--clr-case);
+}
+
+.info-case .charge-specs{
+  margin-bottom: 100px;
+}
+
+

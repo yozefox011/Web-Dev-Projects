@@ -181,7 +181,7 @@ body{
     padding: 10px 20px;
     background: rgba(255, 255, 255, 0.08);
     display: inline-block;
-    color: #0147ab;
+    color: #fff;
     border-radius: 12px;
 }
 
@@ -282,11 +282,13 @@ footer .start{
     width: 70%;
     top: -16%;
     left: 15%;
+    color:#fff;
 }
 
 footer .start p{
     font-size: 13px;
     width: 35%;
+    color: #fff;
 }
 
 footer .start button{
@@ -339,7 +341,7 @@ footer .cols .links-cols a{
     color: #7b7b7b;
     font-size: 14px;
     line-height: 26px;
-    trasition: color 0.6s ease
+    transition: color 0.6s ease
 }
 
 footer .cols .links-cols a:hover{
@@ -368,7 +370,7 @@ footer .cols .new-cols form input{
     padding: 13px;
     border-radius: 100px;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 13px;   
 }
 
 footer .cols .new-cols form button{
@@ -394,4 +396,3 @@ footer .cols .new-cols form button:hover{
 footer .cols .new-cols form button i{
     font-size: 23px;
 }
-

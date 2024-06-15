@@ -81,7 +81,7 @@ a{
   font-weight: var(--fw-medium);
 }
 .navbar{
-  max-width: 100%;
+  min-width: 100%;
   position: fixed;
 }
 
@@ -147,7 +147,7 @@ a{
 
 .cta-buy{
   background: var(--clr-button);
-  width: 130px;
+  max-width: 130px;
   text-align: center;
   padding: 10px;
   border-radius: 35px;
@@ -155,7 +155,7 @@ a{
 
 .cta-more{
   background: var(--clr-bg-1);
-  width: 140px;
+  max-width: 140px;
   text-align: center;
   padding: 10px;
 }
@@ -165,12 +165,12 @@ a{
 }
 
 .chip-img{
-  width: 50%;
+  max-width: 50%;
   border: var(--clr-second) 1px solid;
 }
 
 .chip-desc{
-  width: 50%;
+  max-width: 50%;
   display: flex;
   align-items: center;
   background: var(--clr-bg-2);
@@ -216,7 +216,7 @@ a{
 
 .setup-1{
   padding: 150px 0;
-  width: 50%;
+  max-width: 50%;
 
 }
 
@@ -247,7 +247,7 @@ a{
 }
 
 .case-img img{
-  width: 30%;
+  max-width: 30%;
 }
 
 .info-case{
